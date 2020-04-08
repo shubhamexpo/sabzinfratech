@@ -1,0 +1,88 @@
+@import url('./navigation.css');
+/*BackGround*/
+
+#backGround img{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+#backGround h1{
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.78rem;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 10rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container{
+    position: relative;
+    background: #fff;
+    height: 100%;
+    width: 100vw;
+}
+#container .items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    flex-wrap: wrap;      
+}
+#container .items .item{
+    margin: 3rem
+}
+#nav{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background: rgb(27, 45, 60);
+    width: 100vw;
+    height: 130px;
+}
+#nav .container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 130px;
+    
+}
+#nav .container .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+#nav .container .item h1{
+    text-align: center;
+    color: #fff !important;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 100;
+    font-stretch: 100%;
+    display: block;
+}
+#nav .container .item h1 a{
+    color: #fff;
+}
+#nav .container .item:hover{
+    background: rgb(238, 209, 0);   
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    height: 70px;
+    padding: 0;
+}
+footer P{
+    letter-spacing: 0.001rem;
+    font-family: avenir-lt-w01_35-light1475496, sans-serif;
+}

@@ -1,0 +1,61 @@
+@import url('./navigation.css');
+#login{
+    position: relative;
+    background: #f7f7f7;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+#login .container{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    background: #fff;
+    
+}
+#login .container .logoImage{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+#login .container .loginForm form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+form button,input{
+    outline: none;
+}
+form input{
+    width: 300px;
+    height: 50px;
+    margin: 0.5rem;    
+    font-size: 1rem;     
+}
+form button{
+    height: 50px;
+    width: 95px;
+    margin: 1rem;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    height: 70px;
+    padding: 0;
+}
+footer P{
+    letter-spacing: 0.001rem;
+    font-family: avenir-lt-w01_35-light1475496, sans-serif;
+}

@@ -1,0 +1,111 @@
+@import url("./navigation.css");
+/*-----------------------------------NAVBAR ENDS-------------------------------------------*/
+
+
+#backGround img{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+#backGround h1{
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.78rem;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 10rem;
+    font-family: 'Roboto', sans-serif;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: #fff;
+    width: 100vw;
+    height: 100%;
+}
+#container .items{
+    margin: 1rem; 
+    flex-direction: column;  
+    margin-top: 5rem; 
+}
+#container .items .item1{
+    display: flex;
+    flex-direction: column;
+    
+}
+#container .items .item1 img{
+    height: 350px;
+    width: 350px;
+    
+}
+#container .items .item1 p,h1{
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 10rem;
+    line-height: 2rem;
+}
+#container .items .item{
+    flex: 1;
+
+}
+#container .items .item p,h1{
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 10rem;
+    line-height: 2rem;
+}
+#nav{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: rgb(27, 45, 60);
+    width: 100vw;
+}
+#nav .container{
+    display: flex;
+    flex-direction: column;
+}
+#nav .container .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+    height: 130px;
+    
+}
+#nav .container .item h1{
+    text-align: center;
+    color: #fff !important;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 100;
+    font-stretch: 100%;
+    display: block;
+}
+#nav .container .item h1 a{
+    color: #fff;
+}
+#nav .container .item:hover{
+    background: rgb(238, 209, 0);   
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    height: 70px;
+    padding: 0;
+}
+footer P{
+    letter-spacing: 0.001rem;
+    font-family: avenir-lt-w01_35-light1475496, sans-serif;
+}

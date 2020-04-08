@@ -1,0 +1,466 @@
+@import url('./navigation.css');
+
+/*-----------------------------------NAVBAR ENDS-------------------------------------------*/
+
+/*------------------------------------BACKGROUND START-------------------------------------------*/
+
+#viewPort .img1,.img2{
+    display: none;
+}
+#viewPort video {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+.viewPortHeader{
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1rem;
+  color: #fff;
+  font-size: 27px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/*------------------------------------BACKGROUND ENDS-------------------------------------------*/
+
+/*-------------------------------------------------ABOUT START-----------------------------------------*/
+/*Main Body*/
+#mainBody{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 100%;
+    width: 100vw;
+    background: #fff;
+}
+#mainBody .image img{
+    display: flex;
+    height: 500px;
+    width: 100%;
+}
+#mainBody h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    text-align: start;
+    color: rgb(197,197,197);
+    padding: 50px;
+}
+#mainBody .about .Linebreak{
+    transform-origin: center 5px; 
+    width: 116px;
+    top: -2rem;
+    left: 3rem;
+    position: relative; 
+    height: 10px;
+    box-sizing: border-box;
+    border-top: 10px solid rgb(238, 209, 0);
+}
+#mainBody .about p{
+    font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
+    font: 17px;
+    color: #3B3A3A;
+    line-height: 1.3rem;
+    padding: 2rem;
+
+}
+/*-------------------------------------------------ABOUT ENDS-----------------------------------------*/
+
+/*-------------------------------------------------SERVICES STARTS-----------------------------------------*/
+#services{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: rgb(255,255,255);
+    width: 100vw;
+    height: 100%;
+    padding: 0;
+}
+#services h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    text-align: center;
+    color: rgb(197,197,197);
+    padding-top: 4rem;
+}
+#services .Linebreak{
+    position: relative; 
+    width: 116px;
+    height: 10px;
+    top: 1rem;
+    left: 20rem;
+    
+    border-top: 10px solid rgb(238, 209, 0);
+    
+}
+#services .container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 3rem;
+}
+#services .container .item{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+#services .container .item img{
+    width: 310px;
+    height: 227px;
+
+    
+} 
+#services .container .item .details{
+    background: rgb(247,247,247);
+    width: 310px;
+    height: 245px;
+    padding: 1rem 1rem;
+    margin-bottom: 2rem;
+    
+}
+
+#services .container .item .details h3{
+    font-family: avenir-lt-w01_85-heavy1475544, sans-serif;
+    line-height: 1.20rem;
+    color: #3D5975;
+}
+
+#services .container .item .details p{
+    padding: 0.95rem;
+    line-height: 1.20rem;
+    font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
+}
+/*-------------------------------------------------SERVICES ENDS-----------------------------------------*/
+
+/*What we Do*/
+
+
+
+/*-------------------------------------------------COUNTER STARTS-----------------------------------------*/
+#counter{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: rgb(238, 209, 0);
+    height: 100%;
+    
+}
+#counter .counterItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#counter .counterItems .div1,.div2 > div > h1{
+    text-align: center;
+    
+}
+#counter .counterItems .div1{
+    display: flex;
+    flex-direction: row;
+    
+    margin-bottom: 1rem;
+    
+}
+#counter .counterItems .div1 .yearOfEstablish,.projectCompleted{
+    display: flex;
+    flex: 1;
+    margin: 1rem;
+    
+    
+}
+#counter .counterItems .div2{
+    display: flex;
+    flex-direction: row;
+    
+    margin-bottom: 1rem;
+}
+#counter .counterItems .div2 .contractorsAppointed,.awardsWon{
+    display: flex;
+    flex: 1;
+    margin: 1rem;
+}
+/*-------------------------------------------------COUNTER ENDS-----------------------------------------*/
+
+/*----------------------------------------------PROJECT START--------------------------------------*/
+#projects{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background:#fff;
+    width: 100vw;
+    height: 100%;
+    padding: 0;
+}
+#projects .container h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    color: rgb(197,197,197);
+    text-align: center;
+    padding: 3rem;
+}
+#projects .container .Linebreak{
+    position: relative; 
+    width: 116px;
+    height: 10px;
+    top: -1.95rem;
+    left: 18rem;
+    box-sizing: border-box;
+    border-top: 10px solid rgb(238, 209, 0);
+}
+#projects .container .images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#projects .container .images .box1,.box2{
+    display: flex;
+    flex-direction: column;
+}
+#projects .container .images .box1 .item img{
+    padding: 1.2rem;
+    border-radius: 0.2rem;
+    width: 550px;
+    height: 500px;
+}
+#projects .container .images .box2 .item img{
+    padding: 1.2rem;
+    border-radius: 0.2rem;
+    width: 550px;
+    height: 500px;
+}
+/*--------------------------------------PROJECT ENDS-----------------------------------------*/
+
+/*--------------------------------------CLIENTS START----------------------------------------------*/
+#clients{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background: rgb(247, 247, 247);
+    width: 100vw;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+#clients h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    color: rgb(197,197,197);
+    text-align: center;
+    padding: 3rem;
+}
+
+#clients .Linebreak{
+    position: relative; 
+    width: 116px;
+    height: 10px;
+    top: -1.95rem;
+    left: 0.9rem;
+    box-sizing: border-box;
+    border-top: 10px solid rgb(238, 209, 0);
+}
+#clients .items{
+    display: flex;
+    flex-direction: column;   
+}
+/*--------------------------------------CLIENTS ENDS----------------------------------------------*/
+
+/*--------------------------------------CONTACT US STARTS----------------------------------------------*/
+#contact{
+    display: flex;
+    position: relative;
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+#contact h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    color: rgb(197,197,197);
+    text-align: center;
+    padding: 3rem;
+}
+#contact .LineBreak{
+    position: relative; 
+    width: 116px;
+    height: 10px;
+    top: -1.3rem;
+    left: 8rem;
+    border-top: 10px solid rgb(238, 209, 0);
+}
+
+#contact .find{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    
+    
+}
+#contact .find .formAndInfo{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 100%;
+    height: 100%;
+    
+}
+#contact .find .formAndInfo .info1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 2rem 0rem;
+
+}
+#contact .find .formAndInfo .info1 .h31,.p1{
+    margin-top: 1rem; 
+    text-align: left;
+    margin-left: 1.5rem;
+    
+}
+#contact .find .formAndInfo .info1 .h31{
+    font-family: avenir-lt-w01_85-heavy1475544, 
+    sans-serif;
+    line-height: 1rem;
+    letter-spacing: normal;
+    color: #1E2D3B; 
+    font-size: 30px; 
+    font-stretch: 100%;
+    font-weight: 400;
+}
+#contact .find .formAndInfo .info1 .p1{
+   font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
+   color: #3B3A3A;
+   font-size: 17px;
+   font-stretch: 100%;
+   font-weight: 400;
+   line-height: 25.5px;
+}
+#contact .find .formAndInfo .forms{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 1rem;
+}
+#contact .find .formAndInfo .forms .form-group{
+    margin: 0.34rem;
+}
+#contact .find .formAndInfo .forms .form-group input ,textarea{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    margin: 0.30rem 0rem;
+    
+}
+#contact .find .formAndInfo .forms .form-group input::placeholder ,textarea::placeholder{
+    
+    padding: 3px 3px 3px 12px;
+    color: #3B3A3A;
+    font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
+    font-size: 20px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: normal;
+    max-width: 100%;
+    text-align: left;    
+    background-color: #F7F7F7;
+    text-shadow: none;
+    
+}
+#contact .find .formAndInfo .forms .btn{
+    width: 149px;
+    height: 40px;
+    background: rgb(59, 58, 58, 1);
+    color: rgb(148, 148, 148, 1);
+    margin-left: 5px;
+    font-family: avenir-lt-w01_85-heavy1475544, sans-serif;
+    font-size: 15px;
+    font-stretch: 100%;
+    font-weight: 400;
+}
+#contact .find .formAndInfo .forms .btn:hover{
+    color: rgb(59,58,58,1);
+    background: rgb(238, 209, 0);
+    cursor: pointer;
+}
+#contact .find .address{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 100%;
+    height: 100%;
+    justify-content: start;
+}
+#contact .find .address .info2{
+    max-width: 500px;
+}
+#contact .find .address .info2 .h32,.p2{
+    margin-top: 2rem; 
+    margin-left: 1rem;
+    
+}
+#contact .find .address .info2 .h32{
+    font-family: avenir-lt-w01_85-heavy1475544, sans-serif;
+    line-height: 1rem;
+    letter-spacing: normal;
+    color: #1E2D3B; 
+    font-size: 30px; 
+    font-stretch: 100%;
+    font-weight: 400;  
+}
+#contact .find .address .info2 .p2{
+    font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
+    color: #3B3A3A;
+    font-size: 17px;
+    font-stretch: 100%;
+    font-weight: 400;
+    line-height: 25.5px;
+ }
+#contact .find .address .info2 .LineBreaking{
+    position: relative; 
+    width: 66px;
+    height: 10px;
+    top: 15px;
+    left: 1rem;
+    box-sizing: border-box;
+    border-top: 10px solid rgb(238, 209, 0);   
+}
+#contact .find .address .info2 .h33{
+    font-size: 25px;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+/*--------------------------------------CONTACT US ENDS----------------------------------------------*/
+
+footer{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    height: 70px;
+    padding: 0;
+}
+footer P{
+    letter-spacing: 0.001rem;
+    font-family: avenir-lt-w01_35-light1475496, sans-serif;
+}

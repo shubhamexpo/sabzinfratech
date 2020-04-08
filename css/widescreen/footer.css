@@ -1,0 +1,13 @@
+footer{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    height: 70px;
+    padding: 0;
+}
+footer P{
+    letter-spacing: 0.001rem;
+    font-family: avenir-lt-w01_35-light1475496, sans-serif;
+}

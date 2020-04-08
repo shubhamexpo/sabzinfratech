@@ -1,0 +1,106 @@
+@import url('./navigation.css');
+
+#container{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    position: relative;
+    height: 100%;
+    width: 100vw;
+}
+#container .careerForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100vw;
+}
+#container .careerForm > div{
+    margin-top: 10rem;
+    margin-left: 2rem;    
+    color: rgb(238, 209, 0);
+}
+#container .careerForm > form{
+    margin: 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;    
+
+    
+}
+#container .careerForm > form > label{
+    margin: 5px;
+    font-size: 1.3rem;
+    font-family: avenir-lt-w01_35-light1475496, sans-serif;
+
+}
+#container .careerForm > form > input{
+    width: 25rem;
+    height: 2rem;
+    margin: 5px;
+    font-size: 1.3rem;
+    background-color: #F7F7F7;
+    font-family: avenir-lt-w01_35-light1475496, sans-serif;
+
+}
+#container .careerForm > form > input::placeholder{
+    color: #3B3A3A;
+    font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
+    font-size: 22px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: normal;
+    text-align: left;    
+    text-shadow: none;
+}
+#container .careerForm > form > select{
+    width: 20rem;
+    height: 2rem;
+    
+    font-size: 1.3rem;
+    background-color: #F7F7F7;
+    font-family: avenir-lt-w01_35-light1475496, sans-serif;
+}
+#container .careerForm > form > textarea{
+    width: 25rem !important;
+    height: 10rem;
+    
+    font-size: 1.3rem;
+    background-color: #F7F7F7;
+    font-family: avenir-lt-w01_35-light1475496, sans-serif;
+}
+#container .careerForm > form .choose{
+    width: 100%;
+}
+#container .careerForm > form > button{
+    width: 8rem !important;
+    height: 3rem;
+    
+    border-radius: 1px;
+    font-size: 1.3rem;
+    font-family: avenir-lt-w01_35-light1475496, sans-serif;
+    background: rgb(59, 58, 58, 1);
+    color: rgb(148, 148, 148, 1);
+}
+#container .careerForm > form > button:hover{
+    color: rgb(59,58,58,1);
+    background: rgb(238, 209, 0);
+    cursor: pointer;  
+}
+
+/*-----------------------------------NAVBAR ENDS-------------------------------------------*/
+/* footer{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    height: 70px;
+    padding: 0;
+}
+footer P{
+    letter-spacing: 0.001rem;
+    font-family: avenir-lt-w01_35-light1475496, sans-serif;
+} */
