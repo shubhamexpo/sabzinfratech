@@ -1,5 +1,5 @@
 <?php
-$connection = mysqli_connect('localhost','root','','sabzinfr_jaiMata');
+$connection = mysqli_connect('localhost','root','','***');
 if($connection){
 }
 else{
